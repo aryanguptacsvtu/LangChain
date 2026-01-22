@@ -6,15 +6,13 @@ A comprehensive collection of Jupyter notebooks and Python scripts demonstrating
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
 - [Repository Structure](#repository-structure)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Learning Path](#learning-path)
-- [Topics Covered](#topics-covered)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Resources](#resources)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -87,28 +85,26 @@ OPENAI_API_KEY=your_api_key_here
 
 ## 🎓 Learning Path
 
-### Beginner (Foundations)
-1. **Chat Models** - Understanding chat-based LLMs
-2. **Embedding Models** - Text vectorization basics
-3. **LLMs** - Working with language models
-4. **Prompts** - Crafting effective prompts
-
-### Intermediate (Building Blocks)
-5. **Structured Output** - Controlling output formats
-6. **Output Parsers** - Processing LLM responses
-7. **Chains** - Combining multiple steps
-8. **Runnables** - LCEL fundamentals
-9. **Runnables Types** - Advanced LCEL patterns
-
-### Advanced (Applications)
-10. **Doc Loaders** - Ingesting data from various sources
-11. **Text Splitters** - Chunking strategies
-12. **Vector Store** - Semantic search implementation
-13. **Retrievers** - Building retrieval systems
-14. **RAG** - Complete RAG pipeline
-15. **Tools** - External tool integration
-16. **Tool Calling** - Function calling patterns
-17. **Agents** - Building autonomous agents
+```mermaid
+graph LR
+    Start([🚀 Start]) --> B[🎓 Beginner<br/>Topics 1-4]
+    B --> I[🔨 Intermediate<br/>Topics 5-9]
+    I --> A[🚀 Advanced<br/>Topics 10-17]
+    A --> End([✅ Complete!])
+    
+    B -.-> B1[Chat Models<br/>Embeddings<br/>LLMs<br/>Prompts]
+    I -.-> I1[Structured Output<br/>Parsers<br/>Chains<br/>Runnables]
+    A -.-> A1[Doc Loaders<br/>Vector Stores<br/>RAG<br/>Agents]
+    
+    style Start fill:#4caf50,color:#fff,stroke:#2e7d32,stroke-width:3px
+    style End fill:#4caf50,color:#fff,stroke:#2e7d32,stroke-width:3px
+    style B fill:#fff4e6,stroke:#ff9800,stroke-width:3px
+    style I fill:#e3f2fd,stroke:#2196f3,stroke-width:3px
+    style A fill:#f3e5f5,stroke:#9c27b0,stroke-width:3px
+    style B1 fill:#fffbf0,stroke:#ffb74d,stroke-width:2px,stroke-dasharray: 5 5
+    style I1 fill:#f0f7ff,stroke:#64b5f6,stroke-width:2px,stroke-dasharray: 5 5
+    style A1 fill:#faf5ff,stroke:#ba68c8,stroke-width:2px,stroke-dasharray: 5 5
+```
 
 ---
 
