@@ -4,18 +4,6 @@ A comprehensive collection of Jupyter notebooks and Python scripts demonstrating
 
 ---
 
-## 📚 Table of Contents
-
-- [Repository Structure](#repository-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Learning Path](#learning-path)
-- [Usage](#usage)
-- [Resources](#resources)
-- [Acknowledgments](#acknowledgments)
-
----
-
 ## 📂 Repository Structure
 
 This repository serves as a hands-on learning resource for LangChain, a framework for developing applications powered by language models. Each folder contains practical examples and implementations that progress from fundamental concepts to advanced use cases.
@@ -143,3 +131,13 @@ jupyter notebook
 - Open source community
 
 ---
+## 👨‍💻 Author
+
+**Aryan Gupta**  
+📍 Bhilai, Chhattisgarh  
+🔗 [GitHub Profile](https://github.com/aryanguptacsvtu)
+
+---
+## ⭐ Support
+
+If you like this project, leave a ⭐ and share it with others!
