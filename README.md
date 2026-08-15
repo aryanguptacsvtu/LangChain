@@ -56,11 +56,7 @@ venv\Scripts\activate
 
 3. Install required dependencies:
 ```bash
-pip install langchain langchain-openai langchain-community
-pip install jupyter notebook
-pip install python-dotenv
-pip install chromadb faiss-cpu  # For vector stores
-pip install beautifulsoup4 requests  # For document loaders
+pip install -r requirements.txt
 ```
 
 4. Set up environment variables:
